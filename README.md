@@ -4,6 +4,7 @@ a usb knob used to control youtube playback
 adafruit trinket 
 youtube control
 
+<<<<<<< HEAD
 [![jogdial](assets\20171031_141710-ANIMATION.gif)](assets\20171031_141710-ANIMATION.gif)
 
 user following coding tutorial and folowing allong with multipul screens
@@ -26,3 +27,6 @@ Window hook
 - [x] RW
 - [ ] change to arrow keys so it works on other video things
 - [ ] figure out how to hook it to the window that needs to be controlled 
+=======
+[![jogdial](assets/20171031_141710-ANIMATION.gif)](assets/20171031_141710-ANIMATION.gif)
+>>>>>>> d616ddd57c0cd88adb23f3700d93ff3a5a555de8
