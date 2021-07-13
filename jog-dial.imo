@@ -101,12 +101,12 @@ void loop()
  
   enc_prev_pos = enc_cur_pos;
  
-  if (enc_action > 0) {
+  if (enc_action < 0) {
   //Fast Forward  youtube hotkey (l)
      TrinketHidCombo.pressKey(0, 15);
      TrinketHidCombo.pressKey(0, 0);
   }
-  else if (enc_action < 0) {
+  else if (enc_action > 0) {
     //Rewind youtube hotkey (j)
     TrinketHidCombo.pressKey(0, 13);
      TrinketHidCombo.pressKey(0, 0);
