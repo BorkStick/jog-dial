@@ -103,12 +103,12 @@ void loop()
  
   if (enc_action < 0) {
   //Fast Forward  youtube hotkey (l)
-     TrinketHidCombo.pressKey(0, 15);
+     TrinketHidCombo.pressKey(KEYCODE_ARROW_RIGHT);
      TrinketHidCombo.pressKey(0, 0);
   }
   else if (enc_action > 0) {
     //Rewind youtube hotkey (j)
-    TrinketHidCombo.pressKey(0, 13);
+    TrinketHidCombo.pressKey(0, KEYCODE_ARROW_LEFT);
      TrinketHidCombo.pressKey(0, 0);
   }
  
